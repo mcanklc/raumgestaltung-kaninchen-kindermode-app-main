@@ -1,0 +1,52 @@
+{
+  "name": "kaninchen-kindermode-app",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore"
+  },
+  "dependencies": {
+    "@funken-studio/sitemap-nuxt-3": "4.0.4",
+    "lodash.merge": "4.6.2",
+    "lodash.omit": "4.5.0"
+  },
+  "devDependencies": {
+    "@formkit/nuxt": "1.0.0-beta.15",
+    "@headlessui/vue": "1.7.13",
+    "@heroicons/vue": "2.0.17",
+    "@jrvs-de/components": "0.0.18",
+    "@nuxtjs/eslint-config-typescript": "12.0.0",
+    "@nuxtjs/tailwindcss": "6.6.7",
+    "@pinia-plugin-persistedstate/nuxt": "1.1.1",
+    "@pinia/nuxt": "0.4.9",
+    "@tailwindcss/forms": "0.5.3",
+    "@tailwindcss/typography": "0.5.9",
+    "@types/lodash.isequal": "4.5.6",
+    "@types/lodash.merge": "4.6.7",
+    "@types/lodash.omit": "4.5.7",
+    "@types/qs": "6.9.7",
+    "@vue/eslint-config-prettier": "7.1.0",
+    "@vue/eslint-config-typescript": "11.0.3",
+    "@vueuse/core": "10.1.0",
+    "@vueuse/head": "1.1.26",
+    "currency.js": "2.0.4",
+    "eslint": "8.39.0",
+    "eslint-plugin-tailwindcss": "3.11.0",
+    "eslint-plugin-vue": "9.11.0",
+    "lodash.isequal": "4.5.0",
+    "nanoid": "4.0.2",
+    "nuxt": "^3.4.2",
+    "pinia": "2.0.35",
+    "prettier": "2.8.8",
+    "qs": "6.11.1",
+    "schema-dts": "1.1.2",
+    "typescript": "5.0.4",
+    "vue": "3.2.47",
+    "vue-matomo": "^4.2.0",
+    "vue-tsc": "1.6.1"
+  },
+  "overrides": {
+    "consola": "3.1.0"
+  }
+}

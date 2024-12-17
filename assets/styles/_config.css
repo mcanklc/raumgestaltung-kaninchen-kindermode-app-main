@@ -1,0 +1,20 @@
+html {
+  --ci-primary: 100, 193, 205; /* #64c1cd */
+  --ci-primary-hover: 131, 205, 215; /* #83cdd7 */
+  --ci-primary-active: 80, 154, 164; /* #509aa4 */
+  --ci-primary-contrast: 255, 255, 255; /* #ffffff */
+  --ci-secondary: 225, 242, 244; /* #E1F2F4 */
+
+  --bg-primary: 255, 255, 255; /* #ffffff */
+  --bg-secondary: 241, 245, 249; /* #f1f5f9 */
+  --bg-tertiary: 226, 232, 240; /* #e2e8f0 */
+
+  --contrast-primary: 15, 23, 42; /* #0f172a */
+  --contrast-secondary: 51, 65, 85; /* #334155 */
+  --contrast-tertiary: 100, 116, 139; /* #64748b */
+
+  --ci-basket: 74, 222, 128; /* #4ade80 */
+  --ci-basket-hover: 134, 239, 172; /* #86efac */
+  --ci-basket-active: 34, 197, 94; /* #22c55e */
+  --ci-basket-contrast: 15, 23, 42; /* #0f172a */
+}

@@ -1,0 +1,5 @@
+@layer base {
+  html {
+    @apply bg-bg-primary text-contrast-primary font-body;
+  }
+}

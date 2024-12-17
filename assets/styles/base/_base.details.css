@@ -1,0 +1,30 @@
+@layer base {
+  details summary {
+    list-style: none;
+  }
+
+  details summary::-webkit-details-marker,
+  details summary::marker {
+    display:none;
+  }
+
+  details summary {
+    @apply flex justify-between items-center border-b py-2 font-display cursor-pointer text-xl;
+  }
+
+  details summary:after {
+    background: url('~/assets/vectors/icon/chevron-down.svg') center / 20px no-repeat;
+    content: "";
+    height: 20px;
+    transition: transform 0.2s ease-in-out;
+    width: 20px;
+  }
+
+  details > * {
+    @apply py-2;
+  }
+
+  details[open] summary:after {
+    transform: rotate(180deg);
+  }
+}

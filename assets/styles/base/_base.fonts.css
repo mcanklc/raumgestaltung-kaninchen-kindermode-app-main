@@ -1,0 +1,55 @@
+@layer base {
+  /* baloo-2-800 - latin */
+  @font-face {
+    font-family: "Baloo 2";
+    font-style: normal;
+    font-weight: 800;
+    src: local(""),
+      url("~/assets/fonts/baloo-2-v11-latin-700.woff2") format("woff2"),
+      url("~/assets/fonts/baloo-2-v11-latin-700.woff") format("woff");
+  }
+  /* open-sans-regular - latin */
+  @font-face {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: local(""),
+      url("~/assets/fonts/open-sans-v28-latin-regular.woff2") format("woff2"),
+      url("~/assets/fonts/open-sans-v28-latin-regular.woff") format("woff");
+  }
+  /* open-sans-700 - latin */
+  @font-face {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    src: local(""),
+      url("~/assets/fonts/open-sans-v28-latin-700.woff2") format("woff2"),
+      url("~/assets/fonts/open-sans-v28-latin-700.woff") format("woff");
+  }
+  /* open-sans-italic - latin */
+  @font-face {
+    font-family: "Open Sans";
+    font-style: italic;
+    font-weight: 400;
+    src: local(""),
+      url("~/assets/fonts/open-sans-v28-latin-italic.woff2") format("woff2"),
+      url("~/assets/fonts/open-sans-v28-latin-italic.woff") format("woff");
+  }
+  /* open-sans-700italic - latin */
+  @font-face {
+    font-family: "Open Sans";
+    font-style: italic;
+    font-weight: 700;
+    src: local(""),
+      url("~/assets/fonts/open-sans-v28-latin-700italic.woff2") format("woff2"),
+      url("~/assets/fonts/open-sans-v28-latin-700italic.woff") format("woff");
+  }
+  @font-face {
+    font-family: "Material Icons Outlined";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Material Icons Outlined"),
+      url("~/assets/fonts/material-icons-outlined-2022-03.woff2") format("woff2"),
+      url("~/assets/fonts/material-icons-outlined-2022-03.woff") format("woff");
+  }
+}
